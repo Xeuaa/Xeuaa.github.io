@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #DDC3A5;
+    border-bottom: 4.5px solid transparent;
+    transition: all .55s ease;
+}
+.logo:hover{
+    border-bottom: 4px solid #87715a;
+    opacity: 0.4;
+
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: #DDC3A5;
+    margin-left: 90px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 3.5px solid transparent;
+    transition: all .55s ease;
+    
+}
+.navlist a:hover{
+    border-bottom: 3px solid #DDC3A5;
+    opacity: 0.4;
+}
+#menu-icon{
+    color: white;
+    font-size: 30px;
+    z-index:10001;
+    cursor: pointer;
+    display: none;
+}
+.person{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg,#818181  0%, #818181 28.53%, #87715a 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+}
+.person-image{
+    padding-left: 5%;
+}
+section{
+    padding-left: 5%;
+}
+.person-text h5{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(70, 70, 70);
+    margin-bottom: 40px;
+}
+.person-text h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    line-height: 1;
+    margin: 15px 0 45px;
+}
+.person-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
