@@ -40,6 +40,7 @@ header{
     font-weight: 600;
     border-bottom: 3.5px solid transparent;
     transition: all .55s ease;
+    text-shadow: 2px 2px 4px black;
     
 }
 .navlist a:hover{
@@ -57,7 +58,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg,#818181  0%, #818181 28.53%, #87715a 75.52%);
+    background: linear-gradient(245.59deg,#473c2f  0%, #5c4d3d 28.53%, #87715a 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -76,14 +77,38 @@ section{
     margin-bottom: 40px;
 }
 .person-text h1{
-    font-family: 'Permanent Marker', cursive;
-    font-size: 25px;
+    font-size: 14px;
     color: rgb(0, 0, 0);
     line-height: 1;
     margin: 15px 0 45px;
 }
 .person-text h4{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.firstbutton{
+    display: inline-block;
+    font-size: 12.5px;
+    color: white;
+    background: #b18553;
+    border: 1px solid transparent;
+    padding: 7px 14.25px;
+    border-radius: 20px;
+    transition: all .55s ease;
+}
+.secondbutton{
+    display: inline-block;
+    font-size: 12.5px;
+    color: white;
+    background: #b18553;
+    border: 1px solid transparent;
+    padding: 6px 28px;
+    border-radius: 20px;
+    margin-left: 10px;
+    transition: all .55s ease;
+}
+.person-text a:hover{
+    transform: translateX(8px) translateY(-8px);
+    box-shadow: 2px 2px 4px black ;
 }
